@@ -1,6 +1,11 @@
-/* Background color */
+/* Background image and fallback color */
 body {
-  background-color: #0b0c10 !important; /* almost black */
+  background-image: url('/assets/images/background.jpg');
+  background-size: cover;       /* cover entire area */
+  background-position: center;  /* center the image */
+  background-repeat: no-repeat; /* no tiling */
+  background-attachment: fixed; /* fixed on scroll */
+  background-color: #0b0c10 !important; /* fallback almost black */
   color: #c5c6c7 !important;            /* light gray text */
 }
 
