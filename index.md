@@ -30,7 +30,7 @@ So, he decides to create a diary—a space to share that amazement. And thus, we
   {% assign sorted_posts = site.posts | sort: 'date' | reverse %}
   {% for post in sorted_posts %}
   <li>
-    <a href="{{ post.url }}">{{ post.title }}</a> — <small>{{ post.date | date: "%b %-d, %Y" }}</small>
+    <a href="{{ post.url | relative_url }}">{{ post.title }}</a> — <small>{{ post.date | date: "%b %-d, %Y" }}</small>
   </li>
   {% endfor %}
 </ul>
