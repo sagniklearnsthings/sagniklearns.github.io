@@ -1,22 +1,21 @@
-/* Background color and text */
+/* Background color */
 body {
-  background-color: #dcedc1 !important;  /* leaf green */
-  color: #ffffff !important;              /* white text */
+  background-color: #0b0c10 !important; /* almost black */
+  color: #c5c6c7 !important;            /* light gray text */
 }
 
-/* Link color */
+/* Links */
 a, a:visited {
-  color: #f7dc6f !important;              /* yellow links */
+  color: #66fcf1 !important;            /* cyan/aqua */
   text-decoration: none !important;
 }
 
-/* Link hover/focus */
 a:hover, a:focus {
-  color: #f1c40f !important;              /* darker yellow on hover */
+  color: #45a29e !important;            /* teal */
   text-decoration: underline !important;
 }
 
-/* Post title color */
+/* Post title */
 .post-title {
-  color: #f7dc6f !important;              /* yellow */
+  color: #66fcf1 !important;            /* cyan/aqua */
 }
