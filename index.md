@@ -38,7 +38,7 @@ So, he decides to create a diary—a space to share that amazement. And thus, we
 ---
 
 ## About
-I am a PhD student at IISER Mohali. [More →](/about)
+Know about me ? Click here ---> [More →](blog1.md)
 
 
 
