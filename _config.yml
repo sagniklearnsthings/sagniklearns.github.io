@@ -3,3 +3,10 @@ description: My personal blog and articles
 theme: minima
 sass:
   sass_dir: _sass
+  style: compressed
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      css: "/assets/css/style.css"
