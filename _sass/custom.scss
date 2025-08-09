@@ -1,19 +1,22 @@
-/* Background color change */
+/* Background color and text */
 body {
-  background-color: #4CAF50; /* leaf green */
-  color: #FFFFFF; /* white text */
+  background-color: #dcedc1 !important;  /* leaf green */
+  color: #ffffff !important;              /* white text */
 }
 
 /* Link color */
-a {
-  color: #FFD700; /* yellow */
+a, a:visited {
+  color: #f7dc6f !important;              /* yellow links */
+  text-decoration: none !important;
 }
 
-a:hover {
-  color: #FFC107; /* slightly darker yellow */
+/* Link hover/focus */
+a:hover, a:focus {
+  color: #f1c40f !important;              /* darker yellow on hover */
+  text-decoration: underline !important;
 }
 
 /* Post title color */
 .post-title {
-  color: #FFD700; /* yellow */
+  color: #f7dc6f !important;              /* yellow */
 }
