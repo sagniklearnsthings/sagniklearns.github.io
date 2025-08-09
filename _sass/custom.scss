@@ -1,0 +1,19 @@
+// Background color change
+body {
+  background-color: #f5f5f5; /* light gray, tui white/offwhite/black dite parbi */
+  color: #222; /* text color */
+}
+
+// Link color
+a {
+  color: #ff6600; /* orange */
+}
+
+a:hover {
+  color: #cc5200; /* darker orange */
+}
+
+// Post title color
+.post-title {
+  color: #0066cc;
+}
