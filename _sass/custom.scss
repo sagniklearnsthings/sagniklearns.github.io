@@ -29,3 +29,11 @@ a:hover, a:focus {
   display: none !important;
 }
 
+@media (max-width: 768px) {
+  input[type="button"],
+  input[type="submit"] {
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+  }
+}
