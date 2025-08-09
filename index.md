@@ -12,21 +12,25 @@ So, he decides to create a diary—a space to share that amazement. And thus, we
 
 ---
 
-## Featured
-{% if site.posts.size > 0 %}
-### {{ site.posts.first.title }}
-{{ site.posts.first.excerpt | strip_html | truncate: 200 }}
-[Read more]({{ site.posts.first.url }})
-{% endif %}
-
----
-
-## Recent posts
+## Recent Posts
 <ul>
-  {% for post in site.posts limit:6 %}
+  {% assign sorted_posts = site.posts | sort: 'date' | reverse %}
+  {% for post in sorted_posts limit:6 %}
   <li>
     <a href="{{ post.url }}">{{ post.title }}</a> — <small>{{ post.date | date: "%b %-d, %Y" }}</small><br>
     <small>{{ post.excerpt | strip_html | truncate: 140 }}</small>
+  </li>
+  {% endfor %}
+</ul>
+
+---
+
+## Blog Posts
+<ul>
+  {% assign sorted_posts = site.posts | sort: 'date' | reverse %}
+  {% for post in sorted_posts %}
+  <li>
+    <a href="{{ post.url }}">{{ post.title }}</a> — <small>{{ post.date | date: "%b %-d, %Y" }}</small>
   </li>
   {% endfor %}
 </ul>
@@ -38,7 +42,3 @@ I am a PhD student at IISER Mohali. [More →](/about)
 
 
 
-## Blog Posts
-
-- [My First Post](blog1.md)
-- [GRBs and Supernovae](grb-supernova.md)
