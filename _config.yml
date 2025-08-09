@@ -4,6 +4,8 @@ theme: minima
 sass:
   sass_dir: _sass
   style: compressed
+sidebar:
+  nav: false
 defaults:
   - scope:
       path: ""
