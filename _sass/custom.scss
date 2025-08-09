@@ -1,19 +1,19 @@
-// Background color change
+/* Background color change */
 body {
-  background-color: #000000; /* black */
-  color: #cccccc; /* light grey text for readability */
+  background-color: #4CAF50; /* leaf green */
+  color: #FFFFFF; /* white text */
 }
 
-// Link color
+/* Link color */
 a {
-  color: #ff6600; /* orange */
+  color: #FFD700; /* yellow */
 }
 
 a:hover {
-  color: #cc5200; /* darker orange */
+  color: #FFC107; /* slightly darker yellow */
 }
 
-// Post title color
+/* Post title color */
 .post-title {
-  color: #0066cc;
+  color: #FFD700; /* yellow */
 }
