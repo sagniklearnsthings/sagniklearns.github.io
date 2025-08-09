@@ -1,12 +1,12 @@
 /* Background image and fallback color */
 body {
-  background-image: url('/assets/css/images/background.jpg');
-  background-size: cover;       /* cover entire area */
-  background-position: center;  /* center the image */
-  background-repeat: no-repeat; /* no tiling */
-  background-attachment: fixed; /* fixed on scroll */
-  background-color: #0b0c10 !important; /* fallback almost black */
-  color: #c5c6c7 !important;            /* light gray text */
+  background-image: url('/assets/css/images/background.jpg') !important;
+  background-size: cover !important;       /* cover entire area */
+  background-position: center !important;  /* center the image */
+  background-repeat: no-repeat !important; /* no tiling */
+  background-attachment: fixed !important; /* fixed on scroll */
+  background-color: #0b0c10 !important;    /* fallback almost black */
+  color: #c5c6c7 !important;                /* light gray text */
 }
 
 /* Links */
